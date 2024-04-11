@@ -84,9 +84,14 @@ position: relative;
     height: 25px;
     width: 50%;
     border-radius: 5px;
-    border: 2px solid #a5a8af;
+    border: 1px solid #c6c7c9;
     font-size: large;
     font-weight: 200;
+}
+
+.formInputs input:focus{
+    /* border: 2px solid red; */
+    /* box-shadow: 5px 10px ; */
 }
 
 .bottum{
@@ -102,4 +107,10 @@ position: relative;
     font-size: large;
     font-weight: 200;
 }
+
+.account{
+    display: flex;
+    font-size: larger;
+}
+
 
